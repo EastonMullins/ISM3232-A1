@@ -29,3 +29,14 @@ console.log(employee);
 employee.position = "Data Scientist";
 console.log(employee);
 //Task 3 Employee Records
+
+let customers = [
+    {name: "Francis Wood", email: "franciswood90@gmail.com", purchaseAmount: 150},
+    {name: "Bryce King", email: "bricespice21@gmail.com", purchaseAmount: 200 },
+    {name: "Rocky Bull", email: "rockybull@usf.edu", purchaseAmount: 300}
+];
+console.log(customers);
+customers.push = ({name: "Lebron James", email: "kingjames23@gmail.com", purchaseAmount: 500});
+console.log(customers);
+//Task 4 - Customer Database
+
