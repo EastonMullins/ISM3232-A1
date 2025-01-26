@@ -40,3 +40,9 @@ customers.push = ({name: "Lebron James", email: "kingjames23@gmail.com", purchas
 console.log(customers);
 //Task 4 - Customer Database
 
+let order = {orderID: "123456", customerName: "Lebron James", amount: 10000};
+order.calculateTAX = function () {return this.amount * 1.1;}
+console.log("Order number:", order.orderID, "Customer:", order.customerName
+    ,"Amount:", order.amount, "After taxes:", order.calculateTAX()
+);
+// Task 5 Order Processing System
