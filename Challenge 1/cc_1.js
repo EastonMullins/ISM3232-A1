@@ -12,7 +12,7 @@ let productName = "Cheeseburger";
 const productPrice = 4.99;
 var isAvailable = true;
 
-console.log("Product Name:" ,productNameName, "Type:" , typeof productName);
+console.log("Product Name:" ,productName, "Type:" , typeof productName);
 console.log("Price:" , productPrice, "Type:" , typeof productPrice);
 console.log("In Stock:", isAvailable, "Type:", typeof isAvailable);
 //Task 2 Product Details
@@ -34,11 +34,11 @@ console.log ("Taxes:", accountBalance);
 //Task 3 Financial Transactions
 
 
-let customerName = Bucky;
-let welcomemessage = "Hello," + customerName + "we have recieved your order and it is one the way!";
+let customerName = "Bucky";
+let welcomemessage = "Hello, " + customerName + " we have recieved your order and it is one the way!";
 console.log (welcomemessage);
 //Task 4 Customer Messaging
 
 let isloggedIn = true;
-if (isloggedin){console.log("Welcome!" + employeeName);} else {console.log("Try Again.");}
+if (isloggedIn){console.log("Welcome! " + employeeName);} else {console.log("Try Again.");}
 //Task 5 Access Control
