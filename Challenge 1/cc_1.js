@@ -1,5 +1,5 @@
 let employeeName = "Easton Mullins";
-const employeeID = 456;
+const employeeID = 138;
 var isActive = true;
 
 console.log("Employee Name:" ,employeeName, "Type:" , typeof employeeName);
@@ -39,3 +39,6 @@ let welcomemessage = "Hello," + customerName + "we have recieved your order and 
 console.log (welcomemessage);
 //Task 4 Customer Messaging
 
+let isloggedIn = true;
+if (isloggedin){console.log("Welcome!" + employeeName);} else {console.log("Try Again.");}
+//Task 5 Access Control
