@@ -16,3 +16,16 @@ let average =total / scores.length;
 
 console.log("Average Score: ",average);
 //Task 2 Student Scores
+
+let employee = {
+    name: "Easton Mullins",
+    age: 20,
+    department: "Data Science",
+    isActive: true
+};
+console.log(employee);
+employee.department = "Information Security";
+console.log(employee);
+employee.position = "Data Scientist";
+console.log(employee);
+//Task 3 Employee Records
