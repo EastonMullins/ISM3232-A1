@@ -32,3 +32,10 @@ console.log ("Purchased Ground Beef", accountBalance);
 accountBalance /= 1.5 // Division
 console.log ("Taxes:", accountBalance);
 //Task 3 Financial Transactions
+
+
+let customerName = Bucky;
+let welcomemessage = "Hello," + customerName + "we have recieved your order and it is one the way!";
+console.log (welcomemessage);
+//Task 4 Customer Messaging
+
