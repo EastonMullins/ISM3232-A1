@@ -16,3 +16,19 @@ console.log("Product Name:" ,productNameName, "Type:" , typeof productName);
 console.log("Price:" , productPrice, "Type:" , typeof productPrice);
 console.log("In Stock:", isAvailable, "Type:", typeof isAvailable);
 //Task 2 Product Details
+
+
+let accountBalance = 1000;
+
+accountBalance += 250; // Addition
+console.log("Payment from Catering Order", accountBalance);
+
+accountBalance *= 1.2; // Multiplication
+console.log ("Investment Returns", accountBalance);
+
+accountBalance -= 200; // Subtraction
+console.log ("Purchased Ground Beef", accountBalance);
+
+accountBalance /= 1.5 // Division
+console.log ("Taxes:", accountBalance);
+//Task 3 Financial Transactions
